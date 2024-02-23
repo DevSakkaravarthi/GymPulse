@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+
+{% block content %}
+ <!-- Hero Section -->
+ <section id="hero" class="text-center">
+    <div class="container">
+        <h3>❚█══█❚</h3>
+      <h1 class="display-4">Gym Pulse </h1>
+      <p class="lead">Manage your gym with ease and efficiency </p>
+      <a href="{% url 'account_signup' %}" class="btn btn-primary btn-lg">Get Started Free</a>
+    </div>
+  </section>
+  <!-- Features Section -->
+  <section id="features" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Amazing Features</h2>
+      <div class="row">
+        <!-- Feature 1 -->
+        <div class="col-md-4 mb-3">
+          <h4>Attendance Tracking</h4>
+          <p>Keep track of member check-ins and manage gym attendance effortlessly.</p>
+        </div>
+        <!-- Feature 2 -->
+        <div class="col-md-4 mb-3">
+          <h4>Payment Processing</h4>
+          <p>Automated payment system for hassle-free subscription management.</p>
+        </div>
+        <!-- Feature 3 -->
+        <div class="col-md-4 mb-3">
+          <h4>Member Management</h4>
+          <p>Personal profiles, progress tracking, and more.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+{% endblock content %}
+
+ 
